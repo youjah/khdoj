@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+    <title> Hotel</title>
+</head>
+<body>
+    <header>
+            <a href="index.html" class="logo">Rock<span>Hotel</span></a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="components/about.html">About</a>
+                <a href="components/hotels.html">Hotels</a>
+                <a href="#">ROOMS & SUITES</a>
+                <a href="components/contact.html">contact</a>
+            </nav>
+
+        <div class="flex-end">
+            <a href="components/search.html"> <i class="fas fa-regular fa-magnifying-glass"></i> </a>
+            <i class="fa-solid fa-bell"></i>
+            <div class="user">
+                <i class="fa-solid fa-user" id="user"></i>
+                <div class="container-user">
+                    <h3>mohamed shams</h3>
+                    <div class="info-user">
+                        <a href="auth/updatUser.html" class="update">update profile</a>
+                    </div>
+                    <div class="auth">
+                        <a href="auth/logout.html" class="out">logout</a>
+                        <a href="auth/signin.html" class="in">sign in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sub">
+                <button>subscribe</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <i class="fa-solid fa-bars" id="menu"></i>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="swiper hero-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="contact">
+                        <span>Lorem, ipsum.</span>
+                        <h3> sit amet consectetur.</h3>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/hotel.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="contact">
+                        <span>Lorem, ipsum.</span>
+                        <h3> sit amet consectetur.</h3>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/5-stars.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="contact">
+                        <span>Lorem, ipsum.</span>
+                        <h3> sit amet consectetur.</h3>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/hotel (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="category">
+        <h1 class="title">hotel category</h1>
+        <div class="container-category">
+            <div class="box-category">
+                <img src="icons/bed.png">
+                <p>comfortable sleep</p>
+            </div>
+            <div class="box-category">
+                <img src="icons/bellboy.png">
+                <p>fast food</p>
+            </div>
+            <div class="box-category">
+                <img src="icons/housekeeping.png">
+                <p>Well cleaning</p>
+            </div>
+            <div class="box-category">
+                <img src="icons/swimming-pool.png">
+                <p>swimming-pool</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="products">
+        <h1 class="title">latest bed</h1>
+        <div class="box-container-product">
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/bed - 1.jpg" alt="">
+                <a href="#" class="cat">bed section</a>
+                <div class="name">bed</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/bed - 2.jpg" alt="">
+                <a href="#" class="cat">bed section</a>
+                <div class="name">bed</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/bed - 3.jpg" alt="">
+                <a href="#" class="cat">bed section</a>
+                <div class="name">bed</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+        </div>
+        <a href="#" class="btn">View All</a>
+    </section>
+
+    <section class="products">
+        <h1 class="title">latest kitchen</h1>
+        <div class="box-container-product">
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/kitchen -1.jpg" alt="">
+                <a href="#" class="cat">kitchen section</a>
+                <div class="name">kitchen</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/kitchen - 2.jpg" alt="">
+                <a href="#" class="cat">kitchen section</a>
+                <div class="name">kitchen</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/kitchen -3.jpg" alt="">
+                <a href="#" class="cat">kitchen section</a>
+                <div class="name">kitchen</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+        </div>
+        <a href="#" class="btn">View All</a>
+    </section>
+
+    <section class="products">
+        <h1 class="title">latest living-room</h1>
+        <div class="box-container-product">
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/living-room - 1.jpg" alt="">
+                <a href="#" class="cat">living-room section</a>
+                <div class="name">living-room</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/living-room - 2.jpg" alt="">
+                <a href="#" class="cat">living-room section</a>
+                <div class="name">living-room</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/living-room - 3.jpg" alt="">
+                <a href="#" class="cat">living-room section</a>
+                <div class="name">living-room</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+        </div>
+        <a href="#" class="btn">View All</a>
+    </section>
+
+    <section class="products">
+        <h1 class="title">latest office-desk </h1>
+        <div class="box-container-product">
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/office - desk - 1.jpg" alt="">
+                <a href="#" class="cat">office-desk section</a>
+                <div class="name">office-desk</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/office - desk - 2.jpg" alt="">
+                <a href="#" class="cat">office-desk section</a>
+                <div class="name">office-desk</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="images/office - desk - 3.jpg" alt="">
+                <a href="#" class="cat">office-desk section</a>
+                <div class="name">office-desk</div>
+                <div class="flex">
+                    <div class="price"><span>$</span>4</div>
+                    <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+        </div>
+        <a href="#" class="btn">View All</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="flex">
+                <div class="box-footer">
+                    <div class="image">
+                        <img src="icons/clock.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h1>opening hours</h1>
+                        <p>11.00am to 12.00pm</p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <div class="image">
+                        <img src="icons/gmail.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h1>our gmail</h1>
+                        <p>Mohamed_Shams@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <div class="image">
+                        <img src="icons/placeholder.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h1>our location</h1>
+                        <p>Egypt - Cairo - Nasr City</p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <div class="image">
+                        <img src="icons/call.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h1>our number</h1>
+                        <p>+201061242066</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="container-cart">
+                <div class="flex_end">
+                    <h1>downlaod for mobile</h1>
+                    <div class="images">
+                        <div class="image">
+                            <img src="https://img.icons8.com/color/48/000000/apple-app-store--v3.png" alt="" />
+                            <span>App Store</span>
+                        </div>
+                        <div class="image">
+                            <img src="https://img.icons8.com/fluency/48/000000/google-play.png" alt="" />
+                            <span>Google Play Store</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_end">
+                    <h1>Our Links</h1>
+                   <a href="index.html">Home</a>
+                   <a href="components/about.html">about</a>
+                   <a href="components/hotels.html">Hotels</a>
+                   <a href="components/contact.html">contact</a>
+                   <a href="#">signup</a> 
+               </div>
+               <div class="flex_end">
+                <h1>search for something</h1>
+                <input type="search" placeholder="search something" class="search">
+                <input type="button" value="search"  name="search" class="btn-search">
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© copyright @2023 <span> by MR.Mohamed Shams </span> | all rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".hero-slider", {
+        loop: true,
+        grabCursor: true,
+        effect: "flip",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>

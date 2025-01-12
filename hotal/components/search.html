@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <title>Rock Hotel | Search</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">Rock<span>Hotel</span></a>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="hotels.html">Hotels</a>
+            <a href="#">ROOMS & SUITES</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="flex-end">
+            <a href="search.html"> <i class="fas fa-regular fa-magnifying-glass"></i> </a>
+            <i class="fa-solid fa-bell"></i>
+            <div class="user">
+                <i class="fa-solid fa-user" id="user"></i>
+                <div class="container-user">
+                    <h3>mohamed shams</h3>
+                    <div class="info-user">
+                        <a href="../auth/updatUser.html" class="update">update profile</a>
+                    </div>
+                    <div class="auth">
+                        <a href="../auth/logout.html" class="out">logout</a>
+                        <a href="../auth/signin.html" class="in">sign in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sub">
+                <button>subscribe</button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <i class="fa-solid fa-bars" id="menu"></i>
+        </div>
+    </header>
+
+    <section class="page-search">
+        <div class="container-search">
+            <div class="box-search">
+                <input type="search" placeholder="enter anything to search...">
+                 <i class="fas fa-light fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="flex">
+                <div class="box-footer">
+                    <div class="image">
+                        <img src="../icons/clock.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h1>opening hours</h1>
+                        <p>11.00am to 12.00pm</p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <div class="image">
+                        <img src="../icons/gmail.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h1>our gmail</h1>
+                        <p>Mohamed_Shams@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <div class="image">
+                        <img src="../icons/placeholder.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h1>our location</h1>
+                        <p>Egypt - Cairo - Nasr City</p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <div class="image">
+                        <img src="../icons/call.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h1>our number</h1>
+                        <p>+201061242066</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="container-cart">
+                <div class="flex_end">
+                    <h1>downlaod for mobile</h1>
+                    <div class="images">
+                        <div class="image">
+                            <img src="https://img.icons8.com/color/48/000000/apple-app-store--v3.png" alt="" />
+                            <span>App Store</span>
+                        </div>
+                        <div class="image">
+                            <img src="https://img.icons8.com/fluency/48/000000/google-play.png" alt="" />
+                            <span>Google Play Store</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_end">
+                    <h1>Our Links</h1>
+                    <a href="../index.html">Home</a>
+                    <a href="about.html">about</a>
+                    <a href="hotels.html">Hotels</a>
+                    <a href="contact.html">contact</a>
+                    <a href="#">signup</a>
+                </div>
+                <div class="flex_end">
+                    <h1>search for something</h1>
+                    <input type="search" placeholder="search something" class="search">
+                    <input type="button" value="search" name="search" class="btn-search">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© copyright @2023 <span> by MR.Mohamed Shams </span> | all rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".hero-slider", {
+            loop: true,
+            grabCursor: true,
+            effect: "flip",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <script src="../js/hotels.js"></script>
+</body>
+
+</html>
